@@ -1,0 +1,135 @@
+/*Generales*/
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.righteous{
+    font-family: 'Righteous', cursive;
+}
+
+.titillium{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.paddingtop0{
+    padding-top: 0;
+}
+.margintop0{
+    margin-top: 0;
+}
+.marginbottom0{
+    margin-bottom: 0;
+}
+
+.container90{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+
+.azul-text{
+    color: #6c63ff;
+}
+
+.gris-text{
+    color: #3f3d56;
+}
+.blanco-text{
+    color: #99b2ae;
+}
+.azul{
+    background-color: #6c63ff;
+}
+.btn:hover{
+    background-color: #8680ff;
+}
+/*------------------------------------------Menu movil*/
+.menu-social{
+    height: 50px;
+    background-color: #16151e;
+}
+.menu-section{
+    height: auto;
+    background-color: #2c2a3c;
+}
+.select{
+    background-color: #3f3d56;
+}
+.select .st1{
+    stroke: #6c63ff;
+}
+.select .st2{
+    fill: #6c63ff;
+}
+/*------------------------------------------Icons*/
+.st0{
+    display:none;
+}
+.st1{
+    fill:none;
+    stroke:#99b2ae;
+    stroke-width:0.7;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.st2{
+    fill:#99b2ae;
+}
+
+/*-------------------------------------Movil*/
+
+
+/*-------------------------------------Tablet*/
+@media only screen and (min-width: 601px){
+    .container90{
+        width:90%
+    }
+
+    .sub:hover .st1{
+        stroke: #6c63ff;
+        transition: all 0.5s;
+    }
+    .sub:hover .st2{
+        fill: #6c63ff;
+        transition: all 0.5s;
+    }
+    .social:hover p{
+        color: #6c63ff;
+    }
+    /*----------------------------------------Menu*/
+    .jc{
+        height: 10vh;
+        padding-top: 2.5vh;
+        background-color: #16151e;
+    }
+
+    .menu{
+        background-color:  #2c2a3c;
+        position: fixed;
+        z-index: 1;
+        width: 70px;
+        height: 100vh;
+    }
+    .social p{
+        color: #99b2ae;
+    }
+    /*------------------------------------------Main*/
+    .main{
+        margin-left: 70px;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 993px){
+    .container90{
+        width:90%
+    }
+    .menu{
+        height: 100vh;
+    }
+}
