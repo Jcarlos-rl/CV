@@ -47,6 +47,9 @@
 .btn:hover{
     background-color: #8680ff;
 }
+.justify{
+    text-align: justify;
+}
 /*------------------------------------------Menu movil*/
 .menu-social{
     height: 50px;
