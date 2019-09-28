@@ -28,7 +28,13 @@
 .container90{
     margin:0 auto;
     max-width:1280px;
-    width:90%
+    width:100%
+}
+
+.container100{
+    margin:0 auto;
+    max-width:1280px;
+    width:100%
 }
 
 .azul-text{
@@ -85,11 +91,32 @@
 }
 
 /*-------------------------------------Movil*/
+.name{
+    height: 25vh;
+}
 
+.img-hover-zoom{
+    height: auto;
+    overflow: hidden;
+}
 
+.img-hover-zoom img{
+    transition: transform 1s, filter 2s ease-in-out;
+    filter: blur(2px);
+    transform: scale(1.2);
+}
+
+.img-hover-zoom:hover img{
+    filter: blur(0);
+    transform: scale(1);
+}
 /*-------------------------------------Tablet*/
 @media only screen and (min-width: 601px){
     .container90{
+        width:90%
+    }
+
+    .container100{
         width:90%
     }
 
@@ -129,9 +156,14 @@
 }
 
 @media only screen and (min-width: 993px){
+    .container100{
+        width:90%
+    }
+
     .container90{
         width:90%
     }
+
     .menu{
         height: 100vh;
     }
